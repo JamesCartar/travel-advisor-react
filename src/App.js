@@ -50,7 +50,7 @@ function App() {
         setIsLoading(false);
       });
     }
-  }, [bounds, type]);
+  }, [ bounds, type ]);
 
   return (
     <>
